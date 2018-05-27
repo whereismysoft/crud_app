@@ -1,0 +1,41 @@
+* {
+    font-family: monospace
+}
+
+.list {
+    margin-top: 25px
+}
+
+.list--item {
+    display: flex;
+    font-size: 17px;
+}
+
+.item {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: blue
+}
+
+.list--item + .list--item {
+    margin-top: 10px
+}
+
+.delete {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.delete:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.noAdverts {
+    font-size: 16px;
+    color: gray;
+    font-weight: bold;
+}
